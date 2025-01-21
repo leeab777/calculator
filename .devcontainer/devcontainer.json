@@ -1,0 +1,14 @@
+{
+    "name": "Calculator Project",
+    "image": "node:16", // Use a Node.js image for convenience
+    "postCreateCommand": "npm install live-server -g",
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "ms-vscode.live-server" // Add useful extensions
+        ]
+      }
+    },
+    "forwardPorts": [5500]
+  }
+  
